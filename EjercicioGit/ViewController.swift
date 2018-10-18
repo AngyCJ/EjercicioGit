@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var contador = 0
+    
     @IBOutlet weak var labelTexto: UILabel!
     @IBOutlet weak var botonAgregar: UIButton!
     
@@ -22,8 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    
     @IBAction func Agregar() {
+        contador = contador + 1
+        labelTexto.text = String(contador)
     }
     
 
