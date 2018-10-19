@@ -28,6 +28,10 @@ class ViewController: UIViewController {
     @IBAction func Agregar() {
         contador = contador + 1
         labelTexto.text = String(contador)
+        
+        if (contador == contador*20){
+            labelTexto.backgroundColor = .green
+        }
     }
     
 
