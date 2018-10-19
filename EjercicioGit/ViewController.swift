@@ -29,9 +29,9 @@ class ViewController: UIViewController {
         contador = contador + 1
         labelTexto.text = String(contador)
         var multiplo = 0
-        if (contador == multiplo){
+        if (contador == multiplo*20){
             labelTexto.textColor = UIColor.red
-            multiplo = multiplo + 20
+            multiplo = multiplo + 1
         }
     }
     
