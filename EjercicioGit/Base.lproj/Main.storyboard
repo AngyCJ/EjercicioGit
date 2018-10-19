@@ -45,6 +45,14 @@
                                     <action selector="Multiplicar" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gL-4f-2OR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6L-2f-ZL3">
+                                <rect key="frame" x="157" y="211" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menos 2"/>
+                                <connections>
+                                    <action selector="MenosDos" destination="BYZ-38-t0r" eventType="touchUpInside" id="NLG-0D-Zv2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>

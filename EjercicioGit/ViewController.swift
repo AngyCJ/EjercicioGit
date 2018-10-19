@@ -43,5 +43,10 @@ class ViewController: UIViewController {
         contador = contador*10
         labelTexto.text = String(contador)
     }
+    
+    @IBAction func MenosDos() {
+        contador = contador - 2
+        labelTexto.text = String(contador)
+    }
 }
 
