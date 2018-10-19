@@ -28,9 +28,10 @@ class ViewController: UIViewController {
     @IBAction func Agregar() {
         contador = contador + 1
         labelTexto.text = String(contador)
-        
-        if (contador == 20){
+        var multiplo = 0
+        if (contador == multiplo){
             labelTexto.textColor = UIColor.red
+            multiplo = multiplo + 20
         }
     }
     
