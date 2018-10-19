@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         }
     }
     
-
+    @IBAction func Disminuir() {
+        contador = contador - 1
+    }
 }
 
