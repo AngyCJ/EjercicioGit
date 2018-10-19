@@ -29,13 +29,18 @@ class ViewController: UIViewController {
         contador = contador + 1
         labelTexto.text = String(contador)
         
-        if (contador == contador*20){
-            labelTexto.backgroundColor = .green
+        if (contador == 20){
+            labelTexto.textColor = UIColor.red
         }
     }
     
     @IBAction func Disminuir() {
         contador = contador - 1
+        labelTexto.text = String(contador)
+    }
+    @IBAction func Multiplicar() {
+        contador = contador*10
+        labelTexto.text = String(contador)
     }
 }
 

@@ -31,18 +31,28 @@
                                     <action selector="Agregar" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wyp-c9-5bg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfc-C6-Xcn">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfc-C6-Xcn">
                                 <rect key="frame" x="155" y="271" width="64" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Disminuir"/>
                                 <connections>
                                     <action selector="Disminuir" destination="BYZ-38-t0r" eventType="touchUpInside" id="175-Km-8TK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CY6-X2-9OC">
+                                <rect key="frame" x="165" y="439" width="44" height="30"/>
+                                <state key="normal" title="Por 10"/>
+                                <connections>
+                                    <action selector="Multiplicar" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gL-4f-2OR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="CY6-X2-9OC" firstAttribute="top" secondItem="ZPr-jh-o6U" secondAttribute="bottom" constant="44" id="3IN-7o-Rri"/>
+                            <constraint firstItem="CY6-X2-9OC" firstAttribute="centerX" secondItem="ZPr-jh-o6U" secondAttribute="centerX" id="Hap-vd-6t9"/>
                             <constraint firstItem="ZPr-jh-o6U" firstAttribute="top" secondItem="tpR-sA-EFu" secondAttribute="bottom" constant="21" id="YSx-Xa-R62"/>
+                            <constraint firstItem="Bfc-C6-Xcn" firstAttribute="centerX" secondItem="tpR-sA-EFu" secondAttribute="centerX" id="aEF-F9-5fy"/>
+                            <constraint firstItem="Bfc-C6-Xcn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="hyi-h9-cEG"/>
                             <constraint firstItem="ZPr-jh-o6U" firstAttribute="centerX" secondItem="tpR-sA-EFu" secondAttribute="centerX" id="qAN-kS-P8t"/>
                             <constraint firstItem="tpR-sA-EFu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="udh-sO-u0B"/>
                             <constraint firstItem="tpR-sA-EFu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x2p-DE-zyq"/>
